@@ -1,20 +1,19 @@
-FROM node:latest as build
+FROM node:latest as builder
 
 WORKDIR /app
 
-COPY package*.json /app/
+COPY ./public /app/public
+COPY ./src /app/src
+COPY ./package*.json /app/
 
 RUN npm install
-
-COPY . /app
-
 # Set the environment variable for Node.js to use legacy crypto policy
 ENV NODE_OPTIONS=--openssl-legacy-provider
 
 RUN npm run build
 
 FROM nginx:alpine
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=builder /app/build /var/www/build
 
 EXPOSE 80
 

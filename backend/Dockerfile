@@ -11,7 +11,7 @@ COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 現在のディレクトリの内容をコンテナ内の/appにコピー
-COPY . /app/
+# COPY . /app/
 
 # コンテナを起動する際に実行されるコマンド
 CMD ["python", "app.py"]
