@@ -20,7 +20,8 @@ function App() {
 
   const getOsakaInfo = async () => {
     try {
-      const response = await fetch('/api/osaka');
+      const query = new URLSearchParams({station: 'なかもず'});
+      const response = await fetch('/api/osaka?' + query);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
