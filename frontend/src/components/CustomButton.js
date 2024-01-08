@@ -5,18 +5,19 @@ import Button from "@mui/material/Button";
 const CustomButton = (props) => {
   // // useNavigateフックを使ってページ遷移の関数を取得
   // window.locationを使う
-const handleClick = () => {
-  window.location.href = props.page;
-};
+  const query = new URLSearchParams();
+  const handleClick = () => {
+    query.append("station", props.text);
+    // "/osaka"にリダイレクトする
+    window.location.href = "/osaka?" + query.toString();
+    window.location.href = "./Result?" + query.toString();
+  };
 
   // Buttonコンポーネントを返す
   return (
     <Button variant="contained" color="primary" onClick={handleClick}>
       {props.text}
     </Button>
-    // <Button variant="contained" color="primary" onClick={handleClick}>
-    //   {props.text}
-    // </Button>
   );
 };
 
