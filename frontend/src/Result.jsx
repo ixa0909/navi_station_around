@@ -1,10 +1,12 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header1 from "./Header1";
 
 const Result = () => {
+  // state 変数と更新関数を作る
+  const [data, setData] = useState(null);
   const [message, setMessage] = useState("");
 
+  // API を呼び出す関数を定義する
   const getOsakaInfo = async () => {
     try {
       const response = await fetch("http://localhost:8080/osaka");
@@ -12,31 +14,38 @@ const Result = () => {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
-      let message = "";
-      for (let key in data) {
-        message += "name: " + data[key].name + " ";
-        message += "address: " + data[key].address + " ";
-        message += "url: " + data[key].url + " ";
-        message += "photo: " + data[key].photo + " ";
-      }
-      console.log(data);
-      // setMessage(data.message);
-      setMessage(message);
+      // data を state にセットする
+      setData(data);
     } catch (error) {
       console.error("Error fetching data: ", error);
+      // エラーメッセージを state にセットする
       setMessage("Error fetching data: " + error.message);
     }
   };
 
+  // コンポーネントがマウントされたときに API を呼び出す
   useEffect(() => {
-    // コンポーネントがマウントされた時にgetOsakaInfo関数を呼び出す
     getOsakaInfo();
-  }, [message]); // 空の配列を渡して初回のみ実行する
+  }, []);
 
   return (
     <div>
       <Header1></Header1>
-      <p>{message}</p>
+      {data ? (
+        <div>
+          {Object.keys(data).map((key) => (
+            <div key={key}>
+              <h2>{data[key].name}</h2>
+              <p>{data[key].address}</p>
+              <a href={data[key].url}>詳細ページ</a>
+              <img src={data[key].photo} alt={data[key].name} />
+            </div>
+          ))}
+        </div>
+      ) : (
+        // data が存在しない場合はメッセージを表示する
+        <p>{message}</p>
+      )}
     </div>
   );
 };

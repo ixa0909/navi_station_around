@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Header1.module.css";
+import styles from "./css/Header1.module.css";
 
 export default function Header() {
   const toHome = () => {
