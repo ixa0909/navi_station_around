@@ -1,3 +1,7 @@
 html {
   background-color: bisque;
 }
+
+body {
+  margin: 0;
+}

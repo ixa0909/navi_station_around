@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
+import Header1 from "./Header1";
+
 const Result = () => {
   const [message, setMessage] = useState("");
 
@@ -17,7 +19,7 @@ const Result = () => {
         message += "url: " + data[key].url + " ";
         message += "photo: " + data[key].photo + " ";
       }
-      console.log(data)
+      console.log(data);
       // setMessage(data.message);
       setMessage(message);
     } catch (error) {
@@ -33,6 +35,7 @@ const Result = () => {
 
   return (
     <div>
+      <Header1></Header1>
       <p>{message}</p>
     </div>
   );

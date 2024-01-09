@@ -1,12 +1,12 @@
 import React from "react";
 import CustomButton from "./components/CustomButton";
-import Header from "./Header";
+import Header1 from "./Header1";
 import styles from "./Stations.module.css";
 
 const Stations = () => {
   return (
     <div className={styles.background}>
-      <Header></Header>
+      <Header1></Header1>
       <CustomButton text={"千里中央"} />
       <CustomButton text={"桃山台"} />
       <CustomButton text={"緑地公園"} />
@@ -17,6 +17,7 @@ const Stations = () => {
       <CustomButton text={"中津"} />
       <CustomButton text={"梅田"} />
       <CustomButton text={"淀屋橋"} />
+      <br />
       <CustomButton text={"本町"} />
       <CustomButton text={"心斎橋"} />
       <CustomButton text={"なんば"} />
