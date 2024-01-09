@@ -1,0 +1,92 @@
+{
+    "大仙陵古墳(仁徳天皇陵古墳)": {
+        "name": "大仙陵古墳(仁徳天皇陵古墳)", 
+        "address": "大阪府堺市堺区大仙町1079-1", 
+        "url": "https://www.sakai-tcb.or.jp/spot/detail/126", 
+        "station_name": "なかもず"
+    }, 
+    "大泉緑地": {
+        "name": "大泉緑地", 
+        "address": "大阪府堺市北区金岡町128", 
+        "url": "https://www.osaka-park.or.jp/nanbu/oizumi/main.html", 
+        "station_name": "新金岡"
+    }, 
+    "イオンモール堺北花田": {
+        "name": "イオンモール堺北花田", 
+        "address": "大阪府堺市北区東浅香山町4丁1-12", 
+        "url": "https://sakaikitahanada-aeonmall.com/", 
+        "station_name": "北花田"
+    }, 
+    "大聖観音寺(あびこ観音)": {
+        "name": "大聖観音寺(あびこ観音)", 
+        "address": "大阪府大阪市住吉区我孫子4丁目1-20", 
+        "url": "https://abikokannonji.com/", 
+        "station_name": "あびこ"
+    }, 
+    "長居公園": {
+        "name": "長居公園", 
+        "address": "大阪府大阪市東住吉区長居公園1-1", 
+        "url": "https://nagaipark.com/", 
+        "station_name": "長居"
+    }, 
+    "西田辺駅前商店会": {
+        "name": "西田辺駅前商店会", 
+        "address": "大阪市阿倍野区西田辺町1", 
+        "url": "https://osaka-shotengai-info.com/ss/nishitanabe/", 
+        "station_name": "西田辺"
+    }, 
+    "桃ヶ池公園": {
+        "name": "桃ヶ池公園", 
+        "address": "大阪府大阪市阿倍野区桃ケ池町1丁目", 
+        "url": "無し", 
+        "station_name": "昭和町"
+    }, 
+    "あべのハルカス": {
+        "name": "あべのハルカス", 
+        "address": "大阪府大阪市阿倍野区阿倍野筋1丁目1-43", 
+        "url": "https://www.abenoharukas-300.jp/index.html", 
+        "station_name": "天王寺"
+    }, 
+    "通天閣": {
+        "name": "通天閣", 
+        "address": "大阪府大阪市浪速区恵美須東1丁目18-6", 
+        "url": "https://www.tsutenkaku.co.jp/", 
+        "station_name": "動物園前"
+    }, 
+    "Zepp Namba": {
+        "name": "Zepp Namba", 
+        "address": "大阪府大阪市浪速区敷津東2丁目1-39", 
+        "url": "https://www.zepp.co.jp/hall/namba/", 
+        "station_name": "大国町"
+    }, 
+    "道頓堀": {
+        "name": "道頓堀", 
+        "address": "大阪府大阪市中央区道頓堀1丁目", 
+        "url": "http://dotonbori.or.jp/", 
+        "station_name": "なんば"
+    }, 
+    "心斎橋筋商店街": {
+        "name": "心斎橋筋商店街", 
+        "address": "大阪府大阪市中央区心斎橋筋2丁目2-22", 
+        "url": "https://www.shinsaibashi.or.jp/", 
+        "station_name": "心斎橋"
+    }, 
+    "靭公園": {
+        "name": "靭公園", 
+        "address": "大阪府大阪市西区靱本町", 
+        "url": "https://www.osakapark.osgf.or.jp/utsubo/", 
+        "station_name": "本町"
+    }, 
+    "フェスティバルホール": {
+        "name": "フェスティバルホール", 
+        "address": "大阪府大阪市北区中之島2丁目3-18", 
+        "url": "https://www.festivalhall.jp/", 
+        "station_name": "淀屋橋"
+    }, 
+    "新梅田シティ": {
+        "name": "新梅田シティ", 
+        "address": "大阪府大阪市北区大淀中1丁目1-88", 
+        "url": "https://www.skybldg.co.jp/", 
+        "station_name": "梅田"
+    }
+}
