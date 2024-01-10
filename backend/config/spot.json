@@ -1,8 +1,8 @@
 {
-    "大仙陵古墳(仁徳天皇陵古墳)": {
-        "name": "大仙陵古墳(仁徳天皇陵古墳)", 
-        "address": "大阪府堺市堺区大仙町1079-1", 
-        "url": "https://www.sakai-tcb.or.jp/spot/detail/126", 
+    "百舌鳥古墳群": {
+        "name": "百舌鳥古墳群", 
+        "address": "大阪府堺市堺区大仙町", 
+        "url": "https://www.mozu-furuichi.jp/", 
         "station_name": "なかもず"
     }, 
     "大泉緑地": {
@@ -29,10 +29,10 @@
         "url": "https://nagaipark.com/", 
         "station_name": "長居"
     }, 
-    "西田辺駅前商店会": {
-        "name": "西田辺駅前商店会", 
+    "西田辺駅前商店街": {
+        "name": "西田辺駅前商店街", 
         "address": "大阪市阿倍野区西田辺町1", 
-        "url": "https://osaka-shotengai-info.com/ss/nishitanabe/", 
+        "url": "https://nishitanabe.jp/", 
         "station_name": "西田辺"
     }, 
     "桃ヶ池公園": {
@@ -77,10 +77,10 @@
         "url": "https://www.osakapark.osgf.or.jp/utsubo/", 
         "station_name": "本町"
     }, 
-    "フェスティバルホール": {
-        "name": "フェスティバルホール", 
-        "address": "大阪府大阪市北区中之島2丁目3-18", 
-        "url": "https://www.festivalhall.jp/", 
+    "国立国際美術館": {
+        "name": "国立国際美術館", 
+        "address": "大阪府大阪市北区中之島4丁目2-55", 
+        "url": "https://www.nmao.go.jp/", 
         "station_name": "淀屋橋"
     }, 
     "新梅田シティ": {
@@ -88,5 +88,53 @@
         "address": "大阪府大阪市北区大淀中1丁目1-88", 
         "url": "https://www.skybldg.co.jp/", 
         "station_name": "梅田"
+    }, 
+    "本庄公園": {
+        "name": "本庄公園", 
+        "address": "大阪府大阪市北区本庄西3丁目11", 
+        "url": "無し", 
+        "station_name": "中津"
+    }, 
+    "淀川河川公園": {
+        "name": "淀川河川公園", 
+        "address": "大阪府大阪市淀川区西中島2丁目1地先", 
+        "url": "https://www.yodogawa-park.jp/", 
+        "station_name": "西中島南方"
+    }, 
+    "天然温泉 ひなたの湯": {
+        "name": "天然温泉 ひなたの湯", 
+        "address": "大阪府大阪市淀川区三国本町1丁目6-15", 
+        "url": "https://www.hinatanoyu.com/", 
+        "station_name": "新大阪"
+    }, 
+    "蒲田神社": {
+        "name": "蒲田神社", 
+        "address": "大阪府大阪市淀川区東三国2丁目18-12", 
+        "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000008620.html", 
+        "station_name": "東三国"
+    }, 
+    "ダスキンミュージアム": {
+        "name": "ダスキンミュージアム", 
+        "address": "大阪府吹田市芳野町5-32", 
+        "url": "https://www.duskin-museum.jp/", 
+        "station_name": "江坂"
+    }, 
+    "服部緑地": {
+        "name": "服部緑地", 
+        "address": "大阪府豊中市服部緑地1丁目1", 
+        "url": "https://hattori-ryokuchi.com/", 
+        "station_name": "緑地公園"
+    }, 
+    "千里南公園": {
+        "name": "千里南公園", 
+        "address": "大阪府吹田市津雲台1丁目3", 
+        "url": "https://www.city.suita.osaka.jp/sangyo/1018152/1018167/1018168/1028864/index.html", 
+        "station_name": "桃山台"
+    }, 
+    "せんちゅうパル": {
+        "name": "せんちゅうパル", 
+        "address": "大阪府豊中市新千里東町1丁目3", 
+        "url": "https://www.senrichuou.com/", 
+        "station_name": "千里中央"
     }
 }
