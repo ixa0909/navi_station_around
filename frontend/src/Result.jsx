@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Header1 from "./Header1";
+import styles from "./css/Result.module.css";
 
 const Result = () => {
   // state 変数と更新関数を作る
@@ -32,13 +33,18 @@ const Result = () => {
     <div>
       <Header1></Header1>
       {data ? (
-        <div>
+        <div className={styles.results}>
           {Object.keys(data).map((key) => (
-            <div key={key}>
+            <div key={key} className={styles.result}>
               <h2>{data[key].name}</h2>
-              <p>{data[key].address}</p>
+              <p>所在地: {data[key].address}</p>
+              <img
+                style={{ width: "400px" }}
+                src={data[key].photo}
+                alt={data[key].name}
+              />
+              <br></br>
               <a href={data[key].url}>詳細ページ</a>
-              <img src={data[key].photo} alt={data[key].name} />
             </div>
           ))}
         </div>
