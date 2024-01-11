@@ -40,7 +40,8 @@ def get_spot(station_name):
             result_dict[spot['name']] = {
                 'name': spot['name'], 
                 'address': spot['address'], 
-                'url': spot['url']
+                'url': spot['url'], 
+                'photo': spot['photo']
             }
     return result_dict
 
