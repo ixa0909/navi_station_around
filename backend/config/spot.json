@@ -1,0 +1,163 @@
+{
+    "百舌鳥古墳群": {
+        "name": "百舌鳥古墳群", 
+        "address": "大阪府堺市堺区大仙町", 
+        "url": "https://www.mozu-furuichi.jp/", 
+        "station_name": "なかもず",
+        "photo": ""
+    }, 
+    "大泉緑地": {
+        "name": "大泉緑地", 
+        "address": "大阪府堺市北区金岡町128", 
+        "url": "https://www.osaka-park.or.jp/nanbu/oizumi/main.html", 
+        "station_name": "新金岡", 
+        "photo": ""
+    }, 
+    "イオンモール堺北花田": {
+        "name": "イオンモール堺北花田", 
+        "address": "大阪府堺市北区東浅香山町4丁1-12", 
+        "url": "https://sakaikitahanada-aeonmall.com/", 
+        "station_name": "北花田", 
+        "photo": ""
+    }, 
+    "大聖観音寺(あびこ観音)": {
+        "name": "大聖観音寺(あびこ観音)", 
+        "address": "大阪府大阪市住吉区我孫子4丁目1-20", 
+        "url": "https://abikokannonji.com/", 
+        "station_name": "あびこ", 
+        "photo": ""
+    }, 
+    "長居公園": {
+        "name": "長居公園", 
+        "address": "大阪府大阪市東住吉区長居公園1-1", 
+        "url": "https://nagaipark.com/", 
+        "station_name": "長居", 
+        "photo": ""
+    }, 
+    "西田辺駅前商店街": {
+        "name": "西田辺駅前商店街", 
+        "address": "大阪市阿倍野区西田辺町1", 
+        "url": "https://nishitanabe.jp/", 
+        "station_name": "西田辺", 
+        "photo": ""
+    }, 
+    "桃ヶ池公園": {
+        "name": "桃ヶ池公園", 
+        "address": "大阪府大阪市阿倍野区桃ケ池町1丁目", 
+        "url": "無し", 
+        "station_name": "昭和町", 
+        "photo": ""
+    }, 
+    "あべのハルカス": {
+        "name": "あべのハルカス", 
+        "address": "大阪府大阪市阿倍野区阿倍野筋1丁目1-43", 
+        "url": "https://www.abenoharukas-300.jp/index.html", 
+        "station_name": "天王寺", 
+        "photo": ""
+    }, 
+    "通天閣": {
+        "name": "通天閣", 
+        "address": "大阪府大阪市浪速区恵美須東1丁目18-6", 
+        "url": "https://www.tsutenkaku.co.jp/", 
+        "station_name": "動物園前", 
+        "photo": ""
+    }, 
+    "Zepp Namba": {
+        "name": "Zepp Namba", 
+        "address": "大阪府大阪市浪速区敷津東2丁目1-39", 
+        "url": "https://www.zepp.co.jp/hall/namba/", 
+        "station_name": "大国町", 
+        "photo": ""
+    }, 
+    "道頓堀": {
+        "name": "道頓堀", 
+        "address": "大阪府大阪市中央区道頓堀1丁目", 
+        "url": "http://dotonbori.or.jp/", 
+        "station_name": "なんば", 
+        "photo": ""
+    }, 
+    "心斎橋筋商店街": {
+        "name": "心斎橋筋商店街", 
+        "address": "大阪府大阪市中央区心斎橋筋2丁目2-22", 
+        "url": "https://www.shinsaibashi.or.jp/", 
+        "station_name": "心斎橋", 
+        "photo": ""
+    }, 
+    "靭公園": {
+        "name": "靭公園", 
+        "address": "大阪府大阪市西区靱本町", 
+        "url": "https://www.osakapark.osgf.or.jp/utsubo/", 
+        "station_name": "本町", 
+        "photo": ""
+    }, 
+    "国立国際美術館": {
+        "name": "国立国際美術館", 
+        "address": "大阪府大阪市北区中之島4丁目2-55", 
+        "url": "https://www.nmao.go.jp/", 
+        "station_name": "淀屋橋", 
+        "photo": ""
+    }, 
+    "新梅田シティ": {
+        "name": "新梅田シティ", 
+        "address": "大阪府大阪市北区大淀中1丁目1-88", 
+        "url": "https://www.skybldg.co.jp/", 
+        "station_name": "梅田", 
+        "photo": ""
+    }, 
+    "本庄公園": {
+        "name": "本庄公園", 
+        "address": "大阪府大阪市北区本庄西3丁目11", 
+        "url": "無し", 
+        "station_name": "中津", 
+        "photo": ""
+    }, 
+    "淀川河川公園": {
+        "name": "淀川河川公園", 
+        "address": "大阪府大阪市淀川区西中島2丁目1地先", 
+        "url": "https://www.yodogawa-park.jp/", 
+        "station_name": "西中島南方", 
+        "photo": ""
+    }, 
+    "天然温泉 ひなたの湯": {
+        "name": "天然温泉 ひなたの湯", 
+        "address": "大阪府大阪市淀川区三国本町1丁目6-15", 
+        "url": "https://www.hinatanoyu.com/", 
+        "station_name": "新大阪", 
+        "photo": ""
+    }, 
+    "蒲田神社": {
+        "name": "蒲田神社", 
+        "address": "大阪府大阪市淀川区東三国2丁目18-12", 
+        "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000008620.html", 
+        "station_name": "東三国", 
+        "photo": ""
+    }, 
+    "ダスキンミュージアム": {
+        "name": "ダスキンミュージアム", 
+        "address": "大阪府吹田市芳野町5-32", 
+        "url": "https://www.duskin-museum.jp/", 
+        "station_name": "江坂", 
+        "photo": ""
+    }, 
+    "服部緑地": {
+        "name": "服部緑地", 
+        "address": "大阪府豊中市服部緑地1丁目1", 
+        "url": "https://hattori-ryokuchi.com/", 
+        "station_name": "緑地公園", 
+        "photo": ""
+    }, 
+    "千里南公園": {
+        "name": "千里南公園", 
+        "address": "大阪府吹田市津雲台1丁目3", 
+        "url": "https://www.city.suita.osaka.jp/sangyo/1018152/1018167/1018168/1028864/index.html", 
+        "station_name": "桃山台", 
+        "photo": ""
+    }, 
+    "せんちゅうパル": {
+        "name": "せんちゅうパル", 
+        "address": "大阪府豊中市新千里東町1丁目3", 
+        "url": "https://www.senrichuou.com/", 
+        "station_name": "千里中央", 
+        "photo": ""
+    }
+}
