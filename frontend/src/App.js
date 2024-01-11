@@ -38,7 +38,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/stations" element={<Stations />} />
-          <Route path="/result" element={<Result />} />
+          <Route path="/result/:station" element={<Result />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -12,13 +12,13 @@ export default function Header() {
     <div className={styles.header}>
       <img
         className={styles.lines}
-        src="./img/home.png"
+        src="/img/home.png"
         alt="lines"
         onClick={toHome}
       ></img>
       <img
         className={styles.stations}
-        src="./img/stations.jpeg"
+        src="/img/stations.jpeg"
         alt="staions"
         onClick={toStations}
       ></img>
