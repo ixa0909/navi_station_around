@@ -21,7 +21,7 @@ function App() {
   const getOsakaInfo = async () => {
     try {
       const query = new URLSearchParams({station: 'なかもず'});
-      const response = await fetch('/api/osaka?' + query);
+      const response = await fetch('/api/hottopepper?' + query);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }

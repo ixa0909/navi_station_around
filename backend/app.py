@@ -31,7 +31,7 @@ def osaka_info():
     return jsonify({"message": "USJが有名です"})
 """
 
-@app.route('/osaka')
+@app.route('/hottopepper')
 def response_hottopepper():
     station_name = request.args.get('station')
     response = hottopepper_api.get_hottopepper_shops(station_name)
