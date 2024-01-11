@@ -1,0 +1,13 @@
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.result {
+  margin: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 30%;
+}
