@@ -4,7 +4,7 @@
         "address": "大阪府堺市堺区大仙町", 
         "url": "https://www.mozu-furuichi.jp/", 
         "station_name": "なかもず",
-        "photo": "nakamozu.jpeg"
+        "photo": "nakamozu.png"
     }, 
     "大泉緑地": {
         "name": "大泉緑地", 
@@ -102,7 +102,7 @@
         "address": "大阪府大阪市北区大淀中1丁目1-88", 
         "url": "https://www.skybldg.co.jp/", 
         "station_name": "梅田", 
-        "photo": "umeda.jpeg"
+        "photo": "umeda.png"
     }, 
     "本庄公園": {
         "name": "本庄公園", 
@@ -144,7 +144,7 @@
         "address": "大阪府豊中市服部緑地1丁目1", 
         "url": "https://hattori-ryokuchi.com/", 
         "station_name": "緑地公園", 
-        "photo": "ryokuchikoen.jpeg"
+        "photo": "ryokuchikoen.png"
     }, 
     "千里南公園": {
         "name": "千里南公園", 
