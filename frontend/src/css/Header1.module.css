@@ -13,6 +13,32 @@
   text-align: center;
 }
 
+.logo_img {
+  margin-top: 65px;
+  margin-left: 44%;
+}
+.logo_img img {
+  height: 80px;
+}
+
+.logo {
+  border-radius: 10px;
+  background: #1d2088;
+  color: #fff;
+  display: block;
+  height: 50px;
+  width: 120px;
+  font-weight: 600;
+  margin: 95px 0px 0px 130px;
+  line-height: 50px;
+
+  transition: 0.3s;
+  position: absolute;
+}
+
+.logo:hover {
+  width: 150px;
+}
 .stations {
   display: block;
   border-radius: 10px;
